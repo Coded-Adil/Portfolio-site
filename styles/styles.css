@@ -29,10 +29,22 @@
     background-color: #0A31FD;
     font-weight: bold;
     color: white;
-    padding: 10px 35px;
+    padding: 15px 35px;
     border: none;
     border-radius: 5px;
     font-size: 20px;
+    margin: 10px 5px;
+}
+
+.btn-contact{
+    background-color: white;
+    font-weight: bold;
+    color: #0A31FD;
+    padding: 15px 35px;
+    border: 1px solid #0A31FD;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px 5px;
 }
 
 .section-title{
@@ -87,6 +99,10 @@ nav ul li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+.side{
+    padding: 120px 120px;
 }
 
 /* banner styles */
@@ -196,4 +212,54 @@ main section{
     display: flex;
     justify-content: center;
     margin: 50px;
+}
+
+/* footer style  */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E3EBFF;
+    gap: 177px;
+}
+
+.contact-info-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact-info-description{
+    font-size: 16px;
+}
+
+.contact-icons{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 20px 10px;
+}
+.contact-icon{
+    margin: 20px 10px;
+}
+.message-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.message-form{
+    margin: 130px 230px 130px 117px;
+}
+
+.name{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+.email{
+    margin-top: 20px;
+    height: 64px;
+    width: 461px;
+    border: 1px solid #757575;
 }
