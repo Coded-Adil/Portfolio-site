@@ -101,9 +101,6 @@ nav li a{
     font-size: 20px;
 }
 
-.side{
-    padding: 120px 120px;
-}
 
 /* banner styles */
 .banner{
@@ -215,51 +212,23 @@ main section{
 }
 
 /* footer style  */
-.footer{
+footer{
+    padding: 130px 230px;
     display: flex;
-    justify-content: space-between;
-    background-color: #E3EBFF;
-    gap: 177px;
+    gap: 100px;
 }
 
-.contact-info-title{
-    font-size: 25px;
-    font-weight: bold;
+.footer-column{
+    width: 50%;
 }
 
-.contact-info-description{
-    font-size: 16px;
-}
-
-.contact-icons{
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    margin: 20px 10px;
-}
-.contact-icon{
-    margin: 20px 10px;
-}
-.message-title{
-    font-size: 25px;
-    font-weight: bold;
-}
-.message-form{
-    margin: 130px 230px 130px 117px;
-}
-
-.name{
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-}
-.email{
-    margin-top: 20px;
+footer input[type="text"], footer input[type="email"], footer textarea{
     height: 64px;
-    width: 461px;
-    border: 1px solid #757575;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
