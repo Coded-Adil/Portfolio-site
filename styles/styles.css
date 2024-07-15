@@ -79,7 +79,7 @@
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     background-color: #E3EBFF;
-    height: 850px;
+    /* height: 850px; */
 }
 /* Nav styles */
 nav{
@@ -247,6 +247,26 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 }
 
 @media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+    nav > ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .header{
+        background-image: none;
+    }
+
+    .banner-pic{
+        width: 100%;
+    }
+
     .about-items{
         flex-direction: column;
     }
