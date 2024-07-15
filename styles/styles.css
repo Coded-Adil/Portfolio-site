@@ -291,6 +291,11 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     .banner{
         flex-direction: column;
     }
+
+    .header{
+        background-image: none;
+    }
+    
     .about-items{
         flex-direction: column;
     }
